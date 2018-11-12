@@ -1,9 +1,9 @@
 .all-about{
-    height: 800px;
+    height: 900px;
 }
 .root-back-about{
     width: 100%;
-    height: 800px;
+    height: 900px;
     position: relative;
     background: linear-gradient(#0E2828, #048354);
 }
@@ -35,4 +35,6 @@
 }
 .photo-t{
     margin-right: 30px;
+    width: 320px;
+    height: 200px;
 }

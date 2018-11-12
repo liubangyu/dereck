@@ -18,11 +18,11 @@
     background: linear-gradient(#0E2828, #048354);
 }
 .public-main-about{
-    height: 1952px;
+    height: 1850px;
 }
 .main-message{
     position: absolute;
-    margin-top: 201px;
+    margin-top: 108px;
     margin-left: 214px;
 }
 .about{
@@ -79,6 +79,7 @@
     color:rgba(38,196,28,1);
     line-height:22px;
 }
+
 .amend{
     width:861px;
     height:140px;
