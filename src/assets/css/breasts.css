@@ -1,0 +1,33 @@
+
+.check{
+    display: flex;
+    width:126px;
+    height:48px;
+    font-size:40px;
+    color: #FFFFFF;
+    line-height:48px;
+    font-family:FZLTDHK--GBK1-0;
+    letter-spacing:2px;
+}
+.effect{
+    margin: 16px 0 0 0;
+    width:464px;
+    height:140px;
+    font-size:16px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:28px;
+}
+.right-four-a{
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+.right-four-b{
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}

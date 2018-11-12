@@ -1,0 +1,90 @@
+.experts{
+    width:168px;
+    height:48px;
+    font-size:40px;
+    font-family:FZLTDHK--GBK1-0;
+    font-weight:normal;
+    color:rgba(255,255,255,1);
+    line-height:48px;
+    letter-spacing:2px;
+}
+.all-about{
+    height: 1952px;
+}
+.root-back-about{
+    width: 100%;
+    height: 1952px;
+    position: relative;
+    background: linear-gradient(#0E2828, #048354);
+}
+.public-main-about{
+    height: 1952px;
+}
+.main-message{
+    position: absolute;
+    margin-top: 201px;
+    margin-left: 214px;
+}
+.about{
+    display: flex;
+    width:168px;
+    height:48px;
+    font-size:40px;
+    color: #FFFFFF;
+    line-height:48px;
+    font-family:FZLTDHK--GBK1-0;
+    letter-spacing:2px;
+}
+.effect{
+    margin: 16px 0 0 0;
+    width:800px;
+    height:140px;
+    font-size:16px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:28px;
+}
+.all-experts{
+    margin-top: 20px;
+    display: flex;
+}
+.one-phone{
+    width:180px;
+    height:200px;
+}
+.experts-right{
+    margin-left: 46px;
+}
+.message{
+    display: flex;
+
+}
+.experts-name{
+    width:314px;
+    height:27px;
+    font-size:24px;
+    font-family:Arial-BoldMT;
+    font-weight:normal;
+    color:rgba(255,255,255,1);
+    line-height:28px;
+}
+.experts-introduce{
+    margin: 5px 0 0 10px;
+    width:256px;
+    height:22px;
+    font-size:16px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(38,196,28,1);
+    line-height:22px;
+}
+.amend{
+    width:861px;
+    height:140px;
+    font-size:16px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:28px;
+}
