@@ -18,7 +18,6 @@ a:hover{
     /*padding-top: 80px;!**!*/
     background: url("../img/index-banner-bg.png") no-repeat center center;
     background-size: 100% 100%;
-
 }
 .container{
     clear: both;
@@ -128,6 +127,11 @@ a:hover{
     width: 249px;
     height: 220px;
 }
+.footer-center{
+    clear: both;
+    width: 1000px;
+    margin: 0 auto;/**/
+}
 .footer-a{
     margin: 0 auto;
     clear: both;
@@ -138,7 +142,7 @@ a:hover{
 }
 .footer-a-a{
 
-    margin: 0 50px 0 140px;
+    margin: 0 50px 0 0px;
 }
 .footer-a-b{
 
