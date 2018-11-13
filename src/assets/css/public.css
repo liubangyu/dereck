@@ -45,7 +45,11 @@ a:hover{
     text-decoration:none;
     text-align: center;
 }
+.select:hover .topple{
+    display: block;
+}
 .select{
+    display: none;
     color:#fff;
     font-size:14px;
     line-height: 80px;
@@ -53,6 +57,14 @@ a:hover{
     width: 140px;
     height: 80px;
     vertical-align: top;
+}
+.topple{
+    display: none;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
 }
 .public-main{
     height: 615px;
@@ -119,7 +131,6 @@ a:hover{
 
 }
 .details{
-
     padding: 0 0 0 24px;
     width:48px;
     height:17px;
@@ -168,33 +179,49 @@ a:hover{
     width: 147px;
     height: 160px;
 }
-.footer-all-unique{
+/*.footer-all-unique{
     display: inline-block;
     width: 147px;
     height: 160px;
     background:linear-gradient(179deg,rgba(0,255,162,0.5) 0%,rgba(0,255,181,0) 100%);
-}
+}*/
 .footer-all{
     display: inline-block;
     width: 147px;
     height: 160px;
 }
+.footer-all:hover{
+    background: linear-gradient(179deg,rgba(0,255,162,0.5) 0%,rgba(0,255,181,0) 100%);
+    box-shadow: 0 0 8px #00FF83;
+    -moz-box-shadow: 0 0 8px #00FF83;
+    -webkit-box-shadow: 0 0 8px #00FF83;
+}
+.footer-all:hover .triangle{
+    display: block;
+}
 .footer-one{
-    margin-top: 32px;
-
+    margin-top: 27px;
 }
 .footer-name{
-    margin: 34px 0 0 49px;
+    margin: 0 0 0 49px;
     width:50px;
-    height:22px;
+    /*height:22px;*/
     font-size:16px;
     font-family:PingFangSC-Regular;
     font-weight:400;
     color:rgba(255,255,255,1);
-    line-height:22px;
+    /*line-height:22px;*/
     letter-spacing:1px;
 }
-
+.triangle{
+    display: none;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    margin: 5px 0 0 65px;
+}
 .footer-min-d{
     background-color: #222222;
     height: 45px;
