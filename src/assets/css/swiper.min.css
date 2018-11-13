@@ -10,8 +10,9 @@
  * Released on: November 1, 2018
  */
 .swiper-container {
-    top: 50%;
+    /*top: 50%;*/
     /*margin: 0 auto;*/
+
     position: relative;
     overflow: hidden;
     list-style: none;
@@ -31,9 +32,14 @@
 }
 .swiper-wrapper {
     /*clear: both;*/
-    left: 55%;
-    top: 30%;
+    /*left: 55%;*//**/
+    /*top: 30%;*/
+    width: 400px;
+    height: 299px;
     position: relative;
+    padding-top: 98px;
+    padding-left: 40px ;
+    /*align-items: center;*/
     /*width: 50%;
     height:50%;*/
     z-index: 1;
@@ -210,10 +216,12 @@
     display: none;
 }
 .swiper-pagination {
-    position: relative;
+    position: absolute;
     /*text-align: center;*/
-    margin-left: 65%;
-    margin-top: 100px;
+    /*padding-left: 100px;*/
+    /*margin-top: 50px;*/
+    /*align-items: center;*/
+    text-align: center;
     -webkit-transition: 300ms opacity;
     -o-transition: 300ms opacity;
     transition: 300ms opacity;

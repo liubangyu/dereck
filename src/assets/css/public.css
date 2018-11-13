@@ -69,19 +69,27 @@ a:hover{
 .public-main{
     height: 615px;
 }
+.main-center{/**/
+    clear: both;
+    width: 1000px;
+    margin: 0 auto;/**/
+}
 .main-left{
-    position: absolute;
-    width: 480px;
+    float: left;/**/
+
+    width: 500px;
     height: 421px;
     margin-top:121px;
-    margin-left: 214px;
+    /*margin-left: 214px;*/
 }
 
 .main-left-t{
+    position: absolute;
     width:340px;
     height:46px;
 }
 .main-left-s{
+    padding-top: 20px;
     display: flex;
 }
 .space-card{
@@ -141,8 +149,11 @@ a:hover{
     line-height:17px;
 }
 .main-right{
-    /*float: right;*/
+    float: right;/**/
+    /*position: absolute;*/
+    margin-top:97px;
     height: 421px;
+    width: 500px;
 }
 /*.main-right-a,.main-right-b{
     position: absolute;
@@ -152,9 +163,11 @@ a:hover{
 }*/
 .main-right-a{
     position: absolute;
-    left: 70%;
-    top: 45%;
-    transform: translate(-50%,-50%);
+    /*width: 474px;*/
+    /*position: absolute;*/
+    /*left: 70%;*//**/
+    /*top: 45%;*/
+   /* transform: translate(-50%,-50%);*/
 }
 /*.swiper-slide{
     position: absolute;
@@ -231,7 +244,7 @@ a:hover{
     font-family:PingFangSC-Regular;
     font-weight:400;
     color:#666666;
-    padding-top: 17px;
+    line-height: 45px;
 }
 .main-aa{
     margin-top: 20px;
